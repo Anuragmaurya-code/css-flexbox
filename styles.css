@@ -1,0 +1,28 @@
+.fcontainer{
+    display: flex;/*default direction is horizontal */
+    border:2px solid black; 
+    height: 45vh;
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+    /* justify-content: start; */
+    justify-content: center;
+    /* justify-content: end; */
+    /* align-items: start; */
+    align-items: center;
+    /* align-items: end; */
+    flex-wrap: wrap;
+}
+.fitem{
+    background-color: red;
+    border: 2px solid black;
+    margin: 12px;
+    width:122px;
+    height: 122px;
+}
+
+.fitem1{
+    /* flex-grow: 2; */
+    /* flex-shrink: 3; */
+    align-self: start;
+}
